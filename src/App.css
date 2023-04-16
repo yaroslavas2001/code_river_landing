@@ -22,7 +22,19 @@
   font-style: normal;
 }
 
+body {
+  min-height: 100vh;
+}
+
+div#root {
+  min-height: 100vh;
+  height: 100%;
+}
+
 .app {
   background-color: #E1E3E9;
-  height: 100vh;
+  min-height: 100vh;
+  height: 100%;
+  padding: 20px 91px;
+  box-sizing: border-box;
 }

@@ -1,0 +1,17 @@
+.title_block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+    /* justify-content: center; */
+}
+
+.title {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 117.7%;
+    color: #000000;
+    padding-bottom: 60px;
+}
