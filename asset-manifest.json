@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/code_river_landing/static/css/main.3513bcf0.css",
-    "main.js": "/code_river_landing/static/js/main.3e6510d3.js",
+    "main.js": "/code_river_landing/static/js/main.4b0adfda.js",
     "static/js/787.16aca2bb.chunk.js": "/code_river_landing/static/js/787.16aca2bb.chunk.js",
     "static/media/text_image.svg": "/code_river_landing/static/media/text_image.ea7ce7df3092b50fc15dc4b012d44500.svg",
     "static/media/Jomhuria-Regular.ttf": "/code_river_landing/static/media/Jomhuria-Regular.ce9eb9458abe84317d7e.ttf",
@@ -24,11 +24,11 @@
     "static/media/arrow_right.svg": "/code_river_landing/static/media/arrow_right.0998e6b0ab2905670d14a131b2f7831d.svg",
     "static/media/arrow_left.svg": "/code_river_landing/static/media/arrow_left.2e4a792ff38943f109c08e00baafb948.svg",
     "main.3513bcf0.css.map": "/code_river_landing/static/css/main.3513bcf0.css.map",
-    "main.3e6510d3.js.map": "/code_river_landing/static/js/main.3e6510d3.js.map",
+    "main.4b0adfda.js.map": "/code_river_landing/static/js/main.4b0adfda.js.map",
     "787.16aca2bb.chunk.js.map": "/code_river_landing/static/js/787.16aca2bb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3513bcf0.css",
-    "static/js/main.3e6510d3.js"
+    "static/js/main.4b0adfda.js"
   ]
 }
