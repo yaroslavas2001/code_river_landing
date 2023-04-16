@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "Roboto";
+  src: url("./assets/fonts/Roboto/Roboto-Regular.ttf") format("truetype"),
+    url("./assets/fonts/Roboto/Roboto-Bold.ttf") format("truetype"),
+    url("./assets/fonts/Roboto/Roboto-Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Oswald";
+  src: url("./assets/fonts/Oswald/static/Oswald-Regular.ttf") format("truetype"),
+    url("./assets/fonts/Oswald/static/Oswald-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Jomhuria";
+  src: url("./assets/fonts/Jomhuria/Jomhuria-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.app {
+  background-color: #E1E3E9;
+  height: 100vh;
+}
