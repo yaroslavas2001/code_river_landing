@@ -38,9 +38,13 @@
     position: absolute;
     z-index: 1;
 }
-.slider_btn_left{
-    left: -30px;
+
+.slider_btn_left {
+    left: -22px;
+    top: 35%;
 }
-.slider_btn_right{
-    right: -30px;
+
+.slider_btn_right {
+    right: -25px;
+    top: 31%;
 }

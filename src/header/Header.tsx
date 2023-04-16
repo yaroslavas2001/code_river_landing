@@ -23,9 +23,7 @@ function Header() {
                     {menuItems}
                 </nav>
                 <div className={style.buy_text}>BUY</div>
-
             </div>
-
         </header>
     );
 }

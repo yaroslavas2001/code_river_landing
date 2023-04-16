@@ -4,10 +4,13 @@ import "./assets/css/reset.css"
 import Landing from './pages/landing/Landing';
 import Header from './header/Header';
 import Other from './pages/others/Other';
+import lineImage from "./assets/image/background_line.svg"
 function App() {
   return (
     <div className='app'>
+      
       <Header />
+      <img src={lineImage} className='background_line' alt="" />
       <Routes >
         <Route path="/" element={<Landing />} />
         <Route path="/other" element={<Other />} />

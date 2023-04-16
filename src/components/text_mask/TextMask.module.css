@@ -1,0 +1,6 @@
+.svg {
+    mask-image: url(./../../assets/image/create.svg);
+    width: 476px;
+    height: 710.11px;
+    pointer-events: none;
+}

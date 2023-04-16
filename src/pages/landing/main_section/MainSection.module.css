@@ -1,0 +1,99 @@
+.block {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 135px;
+}
+
+.block_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.apps_block {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.apps_icon_block {
+    display: flex;
+    margin-bottom: 12px;
+}
+
+.apps_block p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.app_icon {
+    width: 55.5px;
+    height: 55.5px;
+    background: #2D3240;
+    border: 1px solid #E1E3E9;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.android {
+    margin-left: -15px;
+}
+
+.app_icon img {
+    height: 28px;
+    width: 28px;
+}
+
+.title {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 90px;
+    /* line-height: 106px; */
+    color: #000000;
+    /* max-width: 540px; */
+}
+.big_text{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 90px;
+    line-height: 106px;
+    color: #000000;
+    letter-spacing:2px;
+}
+.special{
+    letter-spacing:4px;
+
+}
+
+.row{
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+.title_selection {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 90px;
+    color: #000000;
+    background: #BAFD37;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 9px;
+    transform: rotate(10.48deg);
+    width: fit-content;
+    height: fit-content;
+    margin-left: 45px;
+    padding: 0px 5px;
+}
+.text_mask{
+    padding: 20px 90px 20px 0px;
+}

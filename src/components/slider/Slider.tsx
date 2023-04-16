@@ -10,7 +10,7 @@ export type TitleBlockType = {
 let Slider: FC<TitleBlockType> = ({ sliderList }) => {
     let [width, setWidth] = useState(0)
     let carousel: any = useRef()
-    let step = 200
+    let step = 150
     useEffect(() => {
         if (carousel !== undefined)
             setWidth(carousel.current.scrollWidth - carousel.current.offsetWidth)

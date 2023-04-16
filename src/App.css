@@ -10,7 +10,8 @@
 @font-face {
   font-family: "Oswald";
   src: url("./assets/fonts/Oswald/static/Oswald-Regular.ttf") format("truetype"),
-    url("./assets/fonts/Oswald/static/Oswald-Bold.ttf") format("truetype");
+    url("./assets/fonts/Oswald/static/Oswald-Bold.ttf") format("truetype"),
+    url("./assets/fonts/Oswald/static/Oswald-Medium.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -24,6 +25,8 @@
 
 body {
   min-height: 100vh;
+  background-color: #E1E3E9;
+
 }
 
 div#root {
@@ -32,9 +35,20 @@ div#root {
 }
 
 .app {
-  background-color: #E1E3E9;
   min-height: 100vh;
   height: 100%;
-  padding: 20px 91px;
-  box-sizing: border-box;
+  padding: 46px 93px;
+  max-width: 1169px;
+  width: 100%;
+  margin: 0px auto;
+  position: relative;
+}
+
+.background_line {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  width: 100vw;
+  pointer-events: none
+  /* overflow: hidden; */
 }
