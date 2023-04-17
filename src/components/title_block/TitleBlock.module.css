@@ -37,3 +37,9 @@
         padding-bottom: 20px;
     }
 }
+@media (max-width: 350px) {
+    .title {
+        font-size: 30px;
+        padding-bottom: 20px;
+    }
+}

@@ -1,0 +1,11 @@
+.element-animation {
+    /* Скроем элемент в начальном состоянии */
+    opacity: 0;
+    transform: translateY(70px);
+}
+
+.element-animation.element-show {
+    opacity: 1;
+    transition: all 3.5s;
+    transform: translateY(0%);
+}

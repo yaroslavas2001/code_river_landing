@@ -177,14 +177,39 @@
     .block_info {
         flex-direction: column-reverse;
     }
-    .big_text{
+
+    .big_text {
         margin-bottom: 20px;
     }
 }
+
 @media (max-width: 400px) {
     .text_mask {
         /* padding: 20px 90px 0px 0px; */
         width: 276px;
         height: 410.11px;
+    }
+}
+
+@media (max-width: 350px) {
+    .big_text {
+        font-size: 40px;
+        line-height: 45px;
+    }
+
+    .title_selection {
+        font-size: 40px;
+    }
+
+    .app_icon {
+        width: 45.5px;
+        height: 45.5px;
+
+    }
+}
+
+@media (max-width: 280px) {
+    .row {
+        flex-wrap: wrap;
     }
 }
