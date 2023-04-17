@@ -29,11 +29,11 @@ let MainSection = () => {
                         <div className={style.title_selection}> LOOK </div>
                         *
                     </div>
-                  <div className={style.special}>APPAREL</div>  
+                    <div className={style.special}>APPAREL</div>
                 </div>
             </div>
             <div className={style.text_mask}>
-            <TextMask text="CREATE" image={mainImage}></TextMask>
+                <TextMask text="CREATE" image={mainImage}></TextMask>
 
             </div>
         </div>

@@ -48,3 +48,10 @@
     right: -25px;
     top: 31%;
 }
+
+@media (max-width: 400px) {
+    .slider_btn {
+        min-width: 56px;
+        min-height: 56px;
+    }
+}

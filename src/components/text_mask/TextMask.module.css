@@ -1,6 +1,11 @@
 .svg {
     mask-image: url(./../../assets/image/create.svg);
-    width: 476px;
-    height: 710.11px;
+    -webkit-mask-image: url(./../../assets/image/create.svg);
+    -webkit-mask-size: 100%;
+    mask-size: 100%;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    width: inherit;
+    height: inherit;
     pointer-events: none;
 }

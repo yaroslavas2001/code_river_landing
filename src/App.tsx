@@ -7,10 +7,10 @@ import Other from './pages/others/Other';
 import lineImage from "./assets/image/background_line.svg"
 function App() {
   return (
-    <div className='app'>
-      
+    <div        className='app'
+    >
       <Header />
-      <img src={lineImage} className='background_line' alt="" />
+      {/* <img src={lineImage} className='background_line' alt="" /> */}
       <Routes >
         <Route path="/" element={<Landing />} />
         <Route path="/other" element={<Other />} />

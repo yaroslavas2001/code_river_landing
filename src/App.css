@@ -23,25 +23,39 @@
   font-style: normal;
 }
 
+html,
+body {
+  overflow-x: hidden;
+}
+
 body {
   min-height: 100vh;
   background-color: #E1E3E9;
-
 }
 
 div#root {
   min-height: 100vh;
   height: 100%;
+  background-image: url("./assets/image/background_line.svg");
+  background-repeat: no-repeat;
+  background-position: 50% 11%;
+  background-attachment: local;
+  background-size: 100%;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 .app {
   min-height: 100vh;
   height: 100%;
-  padding: 46px 93px;
+  padding: 48px 0px;
   max-width: 1169px;
   width: 100%;
   margin: 0px auto;
   position: relative;
+  box-sizing: border-box;
+
 }
 
 .background_line {
@@ -49,6 +63,38 @@ div#root {
   left: 0px;
   right: 0px;
   width: 100vw;
-  pointer-events: none
-  /* overflow: hidden; */
+  pointer-events: none;
+  overflow: hidden;
 }
+
+@media (max-width: 1250px) {
+  .app {
+    padding: 48px 60px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .app {
+    padding: 48px 40px;
+  }
+}
+
+@media (max-width: 1000px) {
+  div#root {
+
+    background-position: 50% 19%;
+  }
+}
+@media (max-width: 700px) {
+ .app{
+  padding: 20px 40px 50px 40px;
+
+ }
+}
+
+@media (max-width: 400px) {
+  .app{
+   padding: 20px 20px 50px 20px;
+ 
+  }
+ }

@@ -1,0 +1,17 @@
+body {
+    overflow: hidden;
+}
+
+.modal_window {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-height: 100%;
+    min-width: 100%;
+    display: flex;
+    z-index: 2;
+}
+
+.not_show {
+    display: none;
+}
