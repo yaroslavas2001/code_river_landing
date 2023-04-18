@@ -14,16 +14,15 @@ let ChooseLooksSection = () => {
         { image: MountainsImage, alt: "mountains code river" },
         { image: FaceImage, alt: "face code river" },
         { image: BoothsImage, alt: "boots code river" },
-        { image: FootImage, alt: "foot code river" },
-        { image: LongSleveImage, alt: "long sleeve code river" },
-        { image: MountainsImage, alt: "mountains code river" },
-        { image: FaceImage, alt: "face code river" },
-        { image: BoothsImage, alt: "boots code river" },
-
+        // { image: FootImage, alt: "foot code river" },
+        // { image: LongSleveImage, alt: "long sleeve code river" },
+        // { image: MountainsImage, alt: "mountains code river" },
+        // { image: FaceImage, alt: "face code river" },
+        // { image: BoothsImage, alt: "boots code river" },
     ]
     return (
         <TitleBlock title="CHOOSE LOOKS">
-            <div className={style.slidebar}>
+            <div className={style.slidebar__block}>
                 <Slider sliderList={sliderList} ></Slider>
             </div>
         </TitleBlock>

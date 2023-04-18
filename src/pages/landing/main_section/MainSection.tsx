@@ -2,10 +2,11 @@ import style from "./MainSection.module.css"
 import androidImage from "./../../../assets/image/android.svg"
 import appleImage from "./../../../assets/image/apple.svg"
 import mainImage from "./../../../assets/image/text_image.svg"
-import TextMask from "../../../components/text_mask/TextMask"
-import mountains from "./../../../assets/image/slider/mountains.jpg"
 import { motion } from "framer-motion";
 import MTextMask from "../../../components/text_mask/TextMask"
+// image for test
+import smallImage from "./../../../assets/image/test_small_image.png"
+import mountains from "./../../../assets/image/slider/mountains.jpg"
 
 let MainSection = () => {
     let animationSetting = {
@@ -37,31 +38,31 @@ let MainSection = () => {
         })
     }
     return (
-        <div className={style.block}>
-            <motion.div initial="hidden" whileInView='visible' className={style.block_info}>
-                <motion.div variants={animationSetting} custom={1} className={style.apps_block}>
-                    <div className={style.apps_icon_block}>
-                        <div className={style.app_icon}>
+        <div className={style.main__block}>
+            <motion.div initial="hidden" whileInView='visible' className={style.info__block}>
+                <motion.div variants={animationSetting} custom={1} className={style.apps__block}>
+                    <div className={style.apps__block_icon}>
+                        <div className={style.app__icon}>
                             <img src={appleImage} alt="apple icon" />
                         </div>
-                        <div className={`${style.app_icon} ${style.android} `}>
+                        <div className={`${style.app__icon} ${style.android} `}>
                             <img src={androidImage} alt="android icon" />
                         </div>
                     </div>
                     <p>App available</p>
                 </motion.div>
 
-                <motion.div variants={animationSetting} custom={2} className={style.big_text}>
+                <motion.div variants={animationSetting} custom={2} className={style.title__block}>
                     CHOOSE YOUR
-                    <div className={style.row}>
+                    <div className={style.title__block_inner}>
                         WINTER
-                        <div className={style.title_selection}> LOOK </div>
+                        <div className={style.title__block_selection}> LOOK </div>
                         *
                     </div>
-                    <div className={style.special}>APPAREL</div>
+                    <div className={style.title__block_special}>APPAREL</div>
                 </motion.div>
             </motion.div>
-            <motion.div initial="hidden" whileInView='visible' className={style.text_mask}>
+            <motion.div initial="hidden" whileInView='visible' className={style.mask__block}>
                 <MTextMask variants={animationImageSetting} custom={1} text="CREATE" image={mainImage}></MTextMask>
             </motion.div>
         </div>

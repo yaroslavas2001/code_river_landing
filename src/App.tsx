@@ -15,7 +15,6 @@ function App() {
       {/* <Animation></Animation> */}
       {/* <AnimationLine/> */}
       <Header />
-      {/* <img src={lineImage} className='background_line' alt="" /> */}
       <Routes >
         <Route path="/" element={<Landing />} />
         <Route path="/other" element={<Other />} />

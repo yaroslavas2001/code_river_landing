@@ -5,7 +5,7 @@ header {
     padding-bottom: 43px;
 }
 
-.title {
+.header__title {
     font-family: 'Jomhuria';
     font-style: normal;
     font-weight: 400;
@@ -15,7 +15,7 @@ header {
     text-decoration: none;
 }
 
-.header_block {
+.header__nav {
     width: 67.5%;
     display: flex;
     justify-content: space-between;
@@ -29,7 +29,7 @@ nav {
     justify-content: space-between;
 }
 
-.menu_item {
+.nav__item {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -37,7 +37,14 @@ nav {
     line-height: 21px;
     color: #000000;
     text-decoration: none;
+    transition: .9s ease-out;
     /* margin-right: 30px; */
+}
+
+.nav__item:hover,
+.nav__item:focus,
+.nav__item:active {
+    font-weight: bold;
 }
 
 .buy_text {
@@ -67,7 +74,7 @@ nav {
     transform: translateX(-7px);
 }
 
-.mobile_mune {
+.mobile__mune {
     display: none;
 }
 
@@ -153,11 +160,11 @@ nav {
         padding-bottom: 20px;
     }
 
-    .header_block {
+    .header__nav {
         display: none;
     }
 
-    .mobile_mune {
+    .mobile__mune {
         display: block;
     }
 
@@ -167,17 +174,17 @@ nav {
 
     }
 
-    .menu_item {
+    .nav__item {
         padding: 10px;
     }
 
-    .mobile_menu_block {
+    .mobile_menu_nav {
         background-color: #E1E3E9;
         width: 100%;
         padding: 30px;
     }
 
-    .title {
+    .header__title {
         line-height: 60px;
     }
 
@@ -187,7 +194,7 @@ nav {
 }
 
 @media (max-width: 350px) {
-    .title {
+    .header__title {
         font-size: 60px;
     }
 
