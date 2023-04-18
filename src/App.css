@@ -36,10 +36,10 @@ body {
 div#root {
   min-height: 100vh;
   height: 100%;
-  background-image: url("./assets/image/background_line.svg");
+  /* background-image: url("./assets/image/background_line.svg");
   background-repeat: no-repeat;
   background-position: 50% 11%;
-  background-attachment: local;
+  background-attachment: local; */
   background-size: 100%;
   width: 100%;
   max-width: 100%;

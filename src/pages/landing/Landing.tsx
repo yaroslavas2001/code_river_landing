@@ -7,29 +7,44 @@ import { motion } from "framer-motion";
 let Landing = () => {
     let animationSetting = {
         hidden: {
-            y: 100,
+            x: -200,
             opacity: 0
         },
         visible: (custom: number) => ({
-            y: 0,
+            x: 0,
             opacity: 1,
-            transition: { delay: custom * 0.6 }
+            transition: {
+                ease: "easeOut",
+                delay: custom * 0.6
+            }
+        })
+    }
+    let animationMoreAbout = {
+        hidden: {
+            x: 200,
+            opacity: 0
+        },
+        visible: (custom: number) => ({
+            x: 0,
+            opacity: 1,
+            transition: {
+                ease: "easeOut",
+                delay: custom * 0.6
+            }
         })
     }
     return (
         <div className={style.landing}>
-            {/* <Animation> */}
             <section>
                 <MainSection />
             </section>
-            {/* </Animation> */}
             {/* viewport={{ amount: 0.1 }}  */}
             <motion.div initial="hidden" whileInView='visible' className={style.block}>
                 <motion.section custom={1} variants={animationSetting}>
                     <ChooseLooksSection />
                 </motion.section>
 
-                <motion.section custom={2} variants={animationSetting}>
+                <motion.section custom={2} variants={animationMoreAbout}>
                     <MoreAboutUsSection />
                 </motion.section>
 

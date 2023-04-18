@@ -7,9 +7,11 @@ import Other from './pages/others/Other';
 import lineImage from "./assets/image/background_line.svg"
 import Animation from './components/animaton/Animation';
 import AnimationLine from './components/animaton/AnimationLine';
+import Line from './components/animaton/Line';
 function App() {
   return (
     <div className='app'>
+      <Line/>
       {/* <Animation></Animation> */}
       {/* <AnimationLine/> */}
       <Header />

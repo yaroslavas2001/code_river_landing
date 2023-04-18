@@ -16,18 +16,24 @@ let MainSection = () => {
         visible: (custom: number) => ({
             x: 0,
             opacity: 1,
-            transition: { delay: custom * 0.2 }
+            transition: {
+                ease: "easeOut",
+                delay: custom * 0.2
+            }
         })
     }
     let animationImageSetting = {
         hidden: {
             x: 100,
-            opacity: 0
+            opacity: 0,
         },
         visible: (custom: number) => ({
             x: 0,
             opacity: 1,
-            transition: { delay: custom * 0.2 }
+            transition: {
+                ease: "easeOut",
+                delay: custom * 0.2
+            }
         })
     }
     return (
@@ -56,7 +62,7 @@ let MainSection = () => {
                 </motion.div>
             </motion.div>
             <motion.div initial="hidden" whileInView='visible' className={style.text_mask}>
-                <MTextMask variants={animationImageSetting} custom={1}  text="CREATE" image={mainImage}></MTextMask>
+                <MTextMask variants={animationImageSetting} custom={1} text="CREATE" image={mainImage}></MTextMask>
             </motion.div>
         </div>
     );
