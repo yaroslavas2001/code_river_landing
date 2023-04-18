@@ -89,7 +89,7 @@
 }
 
 .mask__block {
-    padding: 20px 90px 0px 0px;
+    padding: 20px 90px 18px 0px;
     width: 476px;
     height: 710.11px;
 }
@@ -181,7 +181,6 @@
     .app__icon {
         width: 45.5px;
         height: 45.5px;
-
     }
 }
 
